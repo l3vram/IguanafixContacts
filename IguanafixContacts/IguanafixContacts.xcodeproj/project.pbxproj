@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		199F79E445212BDFAE17BB97 /* Pods_IguanafixContacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1EA3A919C35221282C8D28C /* Pods_IguanafixContacts.framework */; };
 		48FF10D42137AEBF00F58529 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FF10D32137AEBF00F58529 /* AppDelegate.swift */; };
 		48FF10D62137AEBF00F58529 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FF10D52137AEBF00F58529 /* ViewController.swift */; };
 		48FF10D92137AEC000F58529 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48FF10D72137AEC000F58529 /* Main.storyboard */; };
 		48FF10DB2137AEC100F58529 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48FF10DA2137AEC100F58529 /* Assets.xcassets */; };
 		48FF10DE2137AEC100F58529 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48FF10DC2137AEC100F58529 /* LaunchScreen.storyboard */; };
+		48FF10E62137C06800F58529 /* contactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48FF10E52137C06800F58529 /* contactTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B748D2FF3DC92B5A5988C4B /* Pods-IguanafixContacts.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IguanafixContacts.release.xcconfig"; path = "Pods/Target Support Files/Pods-IguanafixContacts/Pods-IguanafixContacts.release.xcconfig"; sourceTree = "<group>"; };
+		3AB973A9EA134C7EAC7084E7 /* Pods-IguanafixContacts.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IguanafixContacts.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IguanafixContacts/Pods-IguanafixContacts.debug.xcconfig"; sourceTree = "<group>"; };
 		48FF10D02137AEBF00F58529 /* IguanafixContacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IguanafixContacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48FF10D32137AEBF00F58529 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48FF10D52137AEBF00F58529 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +26,8 @@
 		48FF10DA2137AEC100F58529 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48FF10DD2137AEC100F58529 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48FF10DF2137AEC100F58529 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48FF10E52137C06800F58529 /* contactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contactTableViewCell.swift; sourceTree = "<group>"; };
+		B1EA3A919C35221282C8D28C /* Pods_IguanafixContacts.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IguanafixContacts.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				199F79E445212BDFAE17BB97 /* Pods_IguanafixContacts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +47,8 @@
 			children = (
 				48FF10D22137AEBF00F58529 /* IguanafixContacts */,
 				48FF10D12137AEBF00F58529 /* Products */,
+				FF6CBC82FF3A35425C09524B /* Pods */,
+				5778E2A973251D9667A6F5CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,12 +65,30 @@
 			children = (
 				48FF10D32137AEBF00F58529 /* AppDelegate.swift */,
 				48FF10D52137AEBF00F58529 /* ViewController.swift */,
+				48FF10E52137C06800F58529 /* contactTableViewCell.swift */,
 				48FF10D72137AEC000F58529 /* Main.storyboard */,
 				48FF10DA2137AEC100F58529 /* Assets.xcassets */,
 				48FF10DC2137AEC100F58529 /* LaunchScreen.storyboard */,
 				48FF10DF2137AEC100F58529 /* Info.plist */,
 			);
 			path = IguanafixContacts;
+			sourceTree = "<group>";
+		};
+		5778E2A973251D9667A6F5CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B1EA3A919C35221282C8D28C /* Pods_IguanafixContacts.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF6CBC82FF3A35425C09524B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3AB973A9EA134C7EAC7084E7 /* Pods-IguanafixContacts.debug.xcconfig */,
+				0B748D2FF3DC92B5A5988C4B /* Pods-IguanafixContacts.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 48FF10E22137AEC100F58529 /* Build configuration list for PBXNativeTarget "IguanafixContacts" */;
 			buildPhases = (
+				23DC7544FB3E327496872609 /* [CP] Check Pods Manifest.lock */,
 				48FF10CC2137AEBF00F58529 /* Sources */,
 				48FF10CD2137AEBF00F58529 /* Frameworks */,
 				48FF10CE2137AEBF00F58529 /* Resources */,
+				14F7AC588391E3B338A5C4C8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,12 +159,52 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		14F7AC588391E3B338A5C4C8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IguanafixContacts/Pods-IguanafixContacts-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IguanafixContacts/Pods-IguanafixContacts-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		23DC7544FB3E327496872609 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IguanafixContacts-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		48FF10CC2137AEBF00F58529 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				48FF10D62137AEBF00F58529 /* ViewController.swift in Sources */,
+				48FF10E62137C06800F58529 /* contactTableViewCell.swift in Sources */,
 				48FF10D42137AEBF00F58529 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +347,7 @@
 		};
 		48FF10E32137AEC100F58529 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AB973A9EA134C7EAC7084E7 /* Pods-IguanafixContacts.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -295,6 +365,7 @@
 		};
 		48FF10E42137AEC100F58529 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B748D2FF3DC92B5A5988C4B /* Pods-IguanafixContacts.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
